@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/add"
+            android:title="记账"
+            android:icon="@drawable/add_record"
+            />
+        <item
+            android:id="@+id/statistics"
+            android:title="统计"
+            android:icon="@drawable/statistics"/>
+
+        <item
+            android:id="@+id/about"
+            android:title="关于"
+            android:icon="@drawable/about"
+            />
+
+
+    </group>
+</menu>
